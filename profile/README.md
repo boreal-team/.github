@@ -1,6 +1,6 @@
 ![Boreal-logo](./Boreal.png)
 
-# Smart Contract Documentation Boreal • [solidity](https://img.shields.io/badge/solidity-^0.8.17-lightgrey)
+# Documentation Boreal
 
 A **Boreal DeFi**, **Robust** Foundry Project.
 
@@ -39,23 +39,6 @@ Verified addresses in Goerli:
 ### API:
 
 - API for interaction with the Tokenized Real on the private blockchain : [API-HyperledgerBesu](https://b898-2804-431-cfef-b4b0-5c97-1b98-a113-6321.ngrok-free.app/api/v1/namespaces/default/apis/RealTokenizado/api#/)
-
-### Bitfinity contracts:
-
-
-Inside the [`utils/`](./utils/) directory are a few preconfigured scripts that can be used to deploy and verify contracts.
-
-Scripts take inputs from the cli, using silent mode to hide any sensitive information.
-
-_NOTE: These scripts are required to be _executable_ meaning they must be made executable by running `chmod +x ./utils/*`._
-
-_NOTE: these scripts will prompt you for the contract name and deployed addresses (when verifying). Also, they use the `-i` flag on `forge` to ask for your private key for deployment. This uses silent mode which keeps your private key from being printed to the console (and visible in logs)._
-
-
-### I'm new, how do I get started?
-
-We created a guide to get you started with: [GETTING_STARTED.md](./GETTING_STARTED.md).
-
 
 ### Blueprint
 
